@@ -1,5 +1,5 @@
 ﻿<?php
-
+include ('dados.php');
 if (isset($_POST['btn_send'])) {
 	
 	if (isset($logins[$_POST['login']])) {

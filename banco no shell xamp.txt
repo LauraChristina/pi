@@ -1,0 +1,15 @@
+mysql -u root
+
+show databases;
+
+create database nomeDoBanco;
+
+use nomeDoBanco
+
+create table pi_login (Id int not null auto_increment primary key, Login varchar(35) not null, Senha char(35) not null);
+
+describe pi_login;
+
+insert into pi_login (login, senha) values ('Laura', '1234')
+
+SELECT * from pi_login;
